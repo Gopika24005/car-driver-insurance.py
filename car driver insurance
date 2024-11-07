@@ -1,0 +1,13 @@
+Marital=str(input())
+if(driver_status==married):
+    print("insurance approved")
+else:
+    gender=str(input())
+    age=int(input())
+    if(gender==men):
+        if(age<=30):
+            print("approved for men driver")
+    else:
+        if(age<=25):
+            print("approved for women driver")
+    
